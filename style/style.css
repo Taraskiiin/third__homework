@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: #fff;
+}
+h1{
+    margin-left: 65px;
+}
+table .second__colomn{
+    color: #999999;
+}
+table{
+    width: 805px;
+    margin-left: 65px;
+    border: solid 1px #999999;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.name::after{
+    content: "\f0d7";
+    font-family: 'icomoon';
+    margin-left: 14px;
+}
+.third__table .first__column{
+    position: relative;
+    padding-left: 40px;
+}
+.third__table .first__column::before{
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background-image: url(../img/document.svg);
+    background-repeat: no-repeat;
+    left: 15px;
+    top: 13px;
+}
+table tr td{
+    height: 50px;
+    border-top: 1px solid #999999;
+    padding-left: 15px;  
+}
+tr td:nth-child(0){
+    border-bottom-left-radius: 5px;
+}
+table tr td:nth-child(1){
+    width: 40%;
+}
+table tr td:nth-child(2){
+    width: 33%;
+}    
+.third__table #search{
+    background-color: #494b4d;
+    border: none;
+    height: 40px;
+    padding-left: 35px;
+    border-radius: 5px;
+    width: 100%;
+}
+.third__table label{
+    position: relative;
+}
+[type=search]::placeholder{
+    color: #999999;
+}
+.third__table label::before{
+    content: "\f002";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 2px;
+    left: -185px;
+    cursor: text;
+    color: #999999;
+}
+.third__table .first__column{
+    position: relative;
+}
+.third__table .first__column img{
+    position: absolute;
+    top: 15px;
+}
+.third__table input::before{
+    content: "\f002";
+    font-family: 'icomoon';
+    color: #999999;
+    height: 40px;
+    width: 40px;
+    background-color: #494b4d;
+}
+.third__column span{
+    padding-left: 175px;
+}
+.third__column span::after{
+    content: "\f141";
+    font-family: 'icomoon';
+}
+.first__table .third__column{
+    color: #999999;
+}
