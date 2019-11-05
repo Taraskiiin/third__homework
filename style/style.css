@@ -118,7 +118,15 @@ table tr td:nth-child(2), table tr th:nth-child(2){
 .second__table .first__column input[type=checkbox]:checked + label::before {
     content: "✔";
     font-weight: 900;
-    font-size: 10px;
+    font-size: 8px;
+    text-align: center;
+    border: 1px solid #00A9FF;
+    background-color: #00A9FF;
+}
+#name__checkbox[type=checkbox]:checked + label::before {
+    content: "-";
+    font-weight: 900;
+    font-size: 8px;
     text-align: center;
     border: 1px solid #00A9FF;
     background-color: #00A9FF;
