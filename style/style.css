@@ -101,20 +101,25 @@ table tr td:nth-child(2), table tr th:nth-child(2){
 }
 .first__column label::before {
     content: " ";
-    display: block;
-	height: 10px;
-	width: 10px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    color: #fff;
     border: 1px solid #999;
     border-radius: 2px;
 	position: absolute;
 	top: 4px;
 	left: -20px;
 }
-.second__table .first__column input[type=checkbox]:checked + label::before {
-    content: '+';
-    display: inline-block;
-    color: #fff;
+.second__table .first__column input[type=checkbox]:hover + label::before {
     border: 1px solid #00A9FF;
+    background-color: #00A9FF;
+}
+.second__table .first__column input[type=checkbox]:checked + label::before {
+    content: "✔";
+    font-weight: 900;
     font-size: 10px;
+    text-align: center;
+    border: 1px solid #00A9FF;
     background-color: #00A9FF;
 }
