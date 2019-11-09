@@ -17,7 +17,7 @@ table .second__colomn{
     color: #999999;
 }
 table{
-    width: 805px;
+    width: 60%;
     margin-left: 65px;
     border-collapse: collapse;
     box-shadow: 0 0 0 1px #999;
@@ -63,7 +63,7 @@ table tr td:nth-child(2), table tr th:nth-child(2){
     height: 40px;
     padding-left: 35px;
     border-radius: 10px;
-    width: 100%;
+    width: 200px;
     background-color: #444444;
 }
 .third__table label{
